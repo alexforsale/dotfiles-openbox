@@ -248,7 +248,21 @@
       </action>
     </keybind>
 
+    <keybind key="W-S-bracketleft">
+      <action name="SendToDesktop">
+        <to>left</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
     <keybind key="S-A-Right">
+      <action name="SendToDesktop">
+        <to>right</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
+    <keybind key="W-S-bracketright">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -265,6 +279,34 @@
     <keybind key="S-A-Down">
       <action name="SendToDesktop">
         <to>down</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
+    <keybind key="W-S-1">
+      <action name="SendToDesktop">
+        <to>1</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
+    <keybind key="W-S-2">
+      <action name="SendToDesktop">
+        <to>2</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
+    <keybind key="W-S-3">
+      <action name="SendToDesktop">
+        <to>3</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
+    <keybind key="W-S-4">
+      <action name="SendToDesktop">
+        <to>4</to>
         <wrap>no</wrap>
       </action>
     </keybind>
