@@ -206,7 +206,21 @@
       </action>
     </keybind>
 
+    <keybind key="C-A-bracketleft">
+      <action name="GoToDesktop">
+        <to>left</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
     <keybind key="C-A-Right">
+      <action name="GoToDesktop">
+        <to>right</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+
+    <keybind key="C-A-bracketright">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
