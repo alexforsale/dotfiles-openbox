@@ -330,6 +330,13 @@
       </action>
     </keybind>
 
+    <!-- reconfigure -->
+    <keybind key="W-S-r">
+      <action name="Execute">
+        <command>openbox --reconfigure</command>
+      </action>
+    </keybind>
+
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
