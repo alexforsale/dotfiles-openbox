@@ -386,13 +386,6 @@
       </action>
     </keybind>
 
-    <!-- reconfigure -->
-    <keybind key="W-S-r">
-      <action name="Execute">
-        <command>openbox --reconfigure</command>
-      </action>
-    </keybind>
-
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
@@ -520,6 +513,34 @@
     <keybind key="W-n">
       <action name="Execute">
           <command>sh -c '${VISUAL}'</command>
+      </action>
+    </keybind>
+
+    <!-- wifi -->
+    <keybind key="W-w">
+      <action name="Execute">
+          <command>wifi-helper</command>
+      </action>
+    </keybind>
+
+    <!-- Show Clipboard -->
+    <keybind key="W-Insert">
+      <action name="Execute">
+          <command>sh -c showclip</command>
+      </action>
+    </keybind>
+
+    <!-- Shutdown -->
+    <keybind key="W-S-q">
+      <action name="Execute">
+          <command>sh -c 'prompt "Shutdown computer?" "shutdown -h now"'</command>
+      </action>
+    </keybind>
+
+    <!-- reboot -->
+    <keybind key="W-S-r">
+      <action name="Execute">
+          <command>sh -c 'prompt "Reboot computer?" "shutdown -r now"'</command>
       </action>
     </keybind>
 
