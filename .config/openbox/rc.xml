@@ -921,6 +921,13 @@
 
   # end of the example
 -->
+
+    <!-- Disable decoration by default,
+    this should be handled by bar. -->
+    <application class="*">
+      <decor>no</decor>
+    </application>
+
   </applications>
 
 </openbox_config>
