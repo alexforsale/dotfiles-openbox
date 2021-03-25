@@ -476,6 +476,20 @@
       </action>
     </keybind>
 
+    <!-- Terminal -->
+    <keybind key="W-Return">
+      <action name="Execute">
+          <command>sh -c ${TERMINAL}</command>
+      </action>
+    </keybind>
+
+    <!-- Terminal with screen -->
+    <keybind key="W-S-Return">
+      <action name="Execute">
+          <command>sh -c '${TERMINAL} -e screen -m'</command>
+      </action>
+    </keybind>
+
     <!-- windows manipulations-->
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
