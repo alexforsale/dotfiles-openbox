@@ -504,7 +504,7 @@
     </keybind>
 
     <!-- Mail client -->
-    <keybind key="W-b">
+    <keybind key="W-m">
       <action name="Execute">
           <command>sh -c '${MAIL_APP}'</command>
       </action>
