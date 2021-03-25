@@ -414,9 +414,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>PcManFM</name>
+          <name>File Manager</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>sh -c ${FILE}</command>
       </action>
     </keybind>
 
