@@ -288,6 +288,13 @@
       <action name="Close"/>
     </keybind>
 
+    <!-- Openbox Menu -->
+    <keybind key="W-Menu">
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
+      </action>
+    </keybind>
+
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
