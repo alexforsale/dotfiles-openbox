@@ -335,10 +335,6 @@
       </action>
     </keybind>
 
-    <keybind key="W-d">
-      <action name="ToggleShowDesktop"/>
-    </keybind>
-
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
       <action name="Close"/>
@@ -348,6 +344,13 @@
     <keybind key="W-Menu">
       <action name="ShowMenu">
         <menu>root-menu</menu>
+      </action>
+    </keybind>
+
+    <!-- rofi -->
+    <keybind key="W-d">
+      <action name="Execute">
+          <command>polybar-menu</command>
       </action>
     </keybind>
 
