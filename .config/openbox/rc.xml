@@ -554,6 +554,13 @@
       </action>
     </keybind>
 
+    <!-- reconfigure -->
+    <keybind key="W-F11">
+      <action name="Execute">
+        <command>openbox --reconfigure</command>
+      </action>
+    </keybind>
+
     <!-- windows manipulations-->
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
