@@ -52,6 +52,7 @@ our $CONFIG = {
   "generic_fallback"    => 0,
   "gtk_rc_filename"     => "$ENV{HOME}/.config/gtk-2.0/gtkrc",
   "icon_size"           => 48,
+  "polybar_rc"          => "$ENV{HOME}/.config/polybar/config-$ENV{DISTRO}-$ENV{_WM}-$ENV{POLYBAR_CONFIG}",
   "Linux::DesktopFiles" => {
                              desktop_files_paths     => [
                                                           "/usr/share/applications",

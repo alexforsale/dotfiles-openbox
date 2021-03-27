@@ -26,6 +26,7 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 
 ## Text editor
 my $editor = $CONFIG->{editor};
+my $polybar_rc = $CONFIG->{polybar_rc};
 
 our $SCHEMA = [
 
@@ -36,8 +37,9 @@ our $SCHEMA = [
     {item => ['polybar-run',            'Run command',  'system-run']},
 
     {sep => undef},
-    ## The xscreensaver lock command
+    ## dotfiles theem
     {item => ['setwallpaper', 'Change Wallpaper', 'image']},
+    {item => ['polybar-launch', 'Reload polybar', 'image']},
 
     {sep => 'Categories'},
 
@@ -73,7 +75,7 @@ our $SCHEMA = [
 
       # Configuration files
       {item => ["$editor ~/.conkyrc",              'Conky RC',    'text-x-generic']},
-      {item => ["$editor ~/.config/tint2/tint2rc", 'Tint2 Panel', 'text-x-generic']},
+      {item => ["$editor $polybar_rc", 'Polybar Config', 'text-x-generic']},
 
       # obmenu-generator category
       {beg => ['Obmenu-Generator', 'accessories-text-editor']},
