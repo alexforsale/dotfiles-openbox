@@ -47,7 +47,7 @@
 =cut
 
 our $CONFIG = {
-  "editor"              => "leafpad",
+  "editor"              => "$ENV{VISUAL}",
   "force_icon_size"     => 0,
   "generic_fallback"    => 0,
   "gtk_rc_filename"     => "$ENV{HOME}/.config/gtk-2.0/gtkrc",
