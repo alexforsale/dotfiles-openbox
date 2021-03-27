@@ -46,7 +46,7 @@
   </placement>
 
   <theme>
-    <name>Surreal</name>
+    <name>Artwiz-boxed</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
