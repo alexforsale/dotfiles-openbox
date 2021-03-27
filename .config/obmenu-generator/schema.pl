@@ -35,6 +35,10 @@ our $SCHEMA = [
     {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
     {item => ['polybar-run',            'Run command',  'system-run']},
 
+    {sep => undef},
+    ## The xscreensaver lock command
+    {item => ['setwallpaper', 'Change Wallpaper', 'image']},
+
     {sep => 'Categories'},
 
     #          NAME            LABEL                ICON
