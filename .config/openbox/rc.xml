@@ -557,7 +557,7 @@
     <!-- reconfigure -->
     <keybind key="W-F11">
       <action name="Execute">
-        <command>openbox --reconfigure</command>
+        <command>sh -c "openbox --reconfigure &amp;&amp; notify-send -i openbox openbox reconfigured! "</command>
       </action>
     </keybind>
 
