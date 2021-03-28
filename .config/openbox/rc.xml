@@ -1300,6 +1300,10 @@
       <desktop>5</desktop>
     </application>
 
+    <application class="org.remmina.Remmina">
+      <desktop>5</desktop>
+    </application>
+
 </applications>
 
 </openbox_config>
