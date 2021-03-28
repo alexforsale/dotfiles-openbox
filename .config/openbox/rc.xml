@@ -526,6 +526,13 @@
       </action>
     </keybind>
 
+    <!-- polybar-run -->
+    <keybind key="W-r">
+      <action name="Execute">
+          <command>polybar-run</command>
+      </action>
+    </keybind>
+
     <!-- Show Clipboard -->
     <keybind key="W-Insert">
       <action name="Execute">
