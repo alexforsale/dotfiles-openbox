@@ -1297,11 +1297,11 @@
 
     <!-- Desktop 6: Others-->
     <application class="Gucharmap">
-      <desktop>5</desktop>
+      <desktop>6</desktop>
     </application>
 
     <application class="org.remmina.Remmina">
-      <desktop>5</desktop>
+      <desktop>6</desktop>
     </application>
 
 </applications>
