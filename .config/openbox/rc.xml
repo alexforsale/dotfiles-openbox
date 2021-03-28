@@ -1212,11 +1212,45 @@
       <decor>no</decor>
     </application>
 
-    <application class="Rhythmbox">
-      <desktop>4</desktop>
+    <application class="Pavucontrol">
+      <decor>yes</decor>
+      <desktop>all</desktop>
+    </application>
+
+    <application class="Rofi">
+      <desktop>all</desktop>
+    </application>
+
+    <!-- Desktop 1: Terminals-->
+    <application class="UXTerm">
+      <desktop>1</desktop>
+    </application>
+
+    <application class="URxvt">
+      <desktop>1</desktop>
+    </application>
+
+    <!-- Desktop 2: Editors-->
+    <application class="Emacs">
+      <desktop>2</desktop>
       <maximized>true</maximized>
     </application>
 
+    <application class="Leafpad">
+      <desktop>2</desktop>
+      <maximized>true</maximized>
+    </application>
+
+    <application class="L3afpad">
+      <desktop>2</desktop>
+      <maximized>true</maximized>
+    </application>
+
+    <application name="libreoffice">
+      <desktop>2</desktop>
+    </application>
+
+    <!-- Desktop 3: Web Browser-->
     <application class="qutebrowser">
       <desktop>3</desktop>
       <maximized>true</maximized>
@@ -1227,17 +1261,38 @@
       <maximized>true</maximized>
     </application>
 
-    <application class="Emacs">
-      <desktop>2</desktop>
+    <!-- Desktop 4: Mail apps-->
+    <application class="Evolution">
+      <desktop>4</desktop>
+      <maximized>true</maximized>
+      <decor>true</decor>
+    </application>
+
+    <application class="Thunderbird">
+      <desktop>4</desktop>
       <maximized>true</maximized>
     </application>
 
-    <application class="UXTerm">
-      <desktop>1</desktop>
+    <!-- Desktop 5: Multimedia-->
+    <application class="Rhythmbox">
+      <desktop>5</desktop>
     </application>
 
-    <application class="URxvt">
-      <desktop>1</desktop>
+    <application class="vlc">
+      <desktop>5</desktop>
+    </application>
+
+    <application class="mpv">
+      <desktop>5</desktop>
+    </application>
+
+    <application class="Ardour-6.6.0">
+      <desktop>5</desktop>
+    </application>
+
+    <!-- Desktop 6: Others-->
+    <application class="Gucharmap">
+      <desktop>5</desktop>
     </application>
 
 </applications>
