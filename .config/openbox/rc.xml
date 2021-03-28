@@ -1082,6 +1082,7 @@
   </menu>
 
   <applications>
+
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
@@ -1178,11 +1179,39 @@
 -->
 
     <!-- Disable decoration by default,
-    this should be handled by bar. -->
+         this should be handled by bar. -->
     <application class="*">
       <decor>no</decor>
     </application>
 
-  </applications>
+    <application class="Rhythmbox">
+      <desktop>4</desktop>
+      <maximized>true</maximized>
+    </application>
+
+    <application class="qutebrowser">
+      <desktop>3</desktop>
+      <maximized>true</maximized>
+    </application>
+
+    <application class="firefox">
+      <desktop>3</desktop>
+      <maximized>true</maximized>
+    </application>
+
+    <application class="Emacs">
+      <desktop>2</desktop>
+      <maximized>true</maximized>
+    </application>
+
+    <application class="UXTerm">
+      <desktop>1</desktop>
+    </application>
+
+    <application class="URxvt">
+      <desktop>1</desktop>
+    </application>
+
+</applications>
 
 </openbox_config>
