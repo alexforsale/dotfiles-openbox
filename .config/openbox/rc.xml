@@ -1261,6 +1261,11 @@
       <maximized>true</maximized>
     </application>
 
+    <application class="Google-chrome">
+      <desktop>3</desktop>
+      <maximized>true</maximized>
+    </application>
+
     <!-- Desktop 4: Mail apps-->
     <application class="Evolution">
       <desktop>4</desktop>
