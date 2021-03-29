@@ -204,6 +204,19 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
 
+    <!-- keybindings for moving between monitors -->
+    <keybind key="W-C-1">
+      <action name="MoveResizeTo">
+        <monitor>1</monitor>
+      </action>
+    </keybind>
+
+    <keybind key="W-C-2">
+      <action name="MoveResizeTo">
+        <monitor>2</monitor>
+      </action>
+    </keybind>
+
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
