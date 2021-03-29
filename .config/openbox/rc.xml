@@ -132,7 +132,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>6</number>
+    <number>10</number>
     <firstdesk>1</firstdesk>
 
     <names>
@@ -145,6 +145,10 @@
     <name>Web</name>
     <name>Mail</name>
     <name>Multimedia</name>
+    <name>Networks</name>
+    <name>Messaging</name>
+    <name>VM</name>
+    <name>Games</name>
     <name>Others</name>
     </names>
 
@@ -1337,11 +1341,11 @@
 
     <!-- Desktop 6: Others-->
     <application class="Gucharmap">
-      <desktop>6</desktop>
+      <desktop>10</desktop>
     </application>
 
     <application class="org.remmina.Remmina">
-      <desktop>6</desktop>
+      <desktop>10</desktop>
     </application>
 
 </applications>
