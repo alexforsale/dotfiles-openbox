@@ -423,14 +423,14 @@
     <!-- Brightness up -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>dunst-backlight +1</command>
+        <command>dunst-backlight +5</command>
       </action>
     </keybind>
 
     <!-- Brightness down -->
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>dunst-backlight -1</command>
+        <command>dunst-backlight -5</command>
       </action>
     </keybind>
 
