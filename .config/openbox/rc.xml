@@ -1391,12 +1391,18 @@
       <desktop>5</desktop>
     </application>
 
-    <!-- Desktop 6: Others-->
-    <application class="Gucharmap">
-      <desktop>10</desktop>
+    <!-- Desktop 6: Networks-->
+    <application class="org.remmina.Remmina">
+      <desktop>6</desktop>
     </application>
 
-    <application class="org.remmina.Remmina">
+    <!-- Desktop 7: Messaging-->
+    <application class="Pidgin">
+      <desktop>7</desktop>
+    </application>
+
+    <!-- Desktop 10: Others-->
+    <application class="Gucharmap">
       <desktop>10</desktop>
     </application>
 
