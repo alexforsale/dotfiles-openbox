@@ -17,7 +17,7 @@
 #xfce-mcs-manager &
 
 # polybar
-[ $(command -v polybar-launch) ] && $(sleep 3 && polybar-launch) &
+sleep 3 && polybar-launch
 
 # light-locker
 [ $(command -v light-locker) ] && $(sleep 3 && light-locker) &
