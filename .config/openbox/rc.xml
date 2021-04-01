@@ -369,7 +369,7 @@
       </action>
     </keybind>
 
-    <keybind key="W-S-10">
+    <keybind key="W-S-0">
       <action name="SendToDesktop">
         <to>10</to>
         <wrap>no</wrap>
@@ -430,7 +430,7 @@
       </action>
     </keybind>
 
-    <keybind key="W-10">
+    <keybind key="W-0">
       <action name="GoToDesktop">
         <to>10</to>
       </action>
