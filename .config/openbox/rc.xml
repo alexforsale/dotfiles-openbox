@@ -458,14 +458,14 @@
     <!-- Volume Raise -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>dunst-volume +5%</command>
+        <command>dunst-volume up</command>
       </action>
     </keybind>
 
     <!-- Volume Lower -->
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>dunst-volume -5%</command>
+        <command>dunst-volume down</command>
       </action>
     </keybind>
 
