@@ -476,6 +476,27 @@
       </action>
     </keybind>
 
+    <!-- Volume Raise alt -->
+    <keybind key="W-F9">
+      <action name="Execute">
+        <command>dunst-volume up</command>
+      </action>
+    </keybind>
+
+    <!-- Volume Lower alt -->
+    <keybind key="W-F8">
+      <action name="Execute">
+        <command>dunst-volume down</command>
+      </action>
+    </keybind>
+
+    <!-- Volume Mute Toggle alt -->
+    <keybind key="W-F7">
+      <action name="Execute">
+        <command>dunst-volume toggle</command>
+      </action>
+    </keybind>
+
     <!-- toggle media play/paused -->
     <keybind key="XF86AudioPlay">
       <action name="Execute">
@@ -497,6 +518,27 @@
       </action>
     </keybind>
 
+    <!-- toggle media play/paused alt -->
+    <keybind key="W-F11">
+      <action name="Execute">
+        <command>playerctl play-pause</command>
+      </action>
+    </keybind>
+
+    <!-- media next alt -->
+    <keybind key="W-F12">
+      <action name="Execute">
+        <command>playerctl next</command>
+      </action>
+    </keybind>
+
+    <!-- media previous alt -->
+    <keybind key="W-F10">
+      <action name="Execute">
+        <command>playerctl previous</command>
+      </action>
+    </keybind>
+
     <!-- Brightness up -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
@@ -506,6 +548,20 @@
 
     <!-- Brightness down -->
     <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>dunst-backlight down</command>
+      </action>
+    </keybind>
+
+    <!-- Brightness up alt -->
+    <keybind key="W-F3">
+      <action name="Execute">
+        <command>dunst-backlight up</command>
+      </action>
+    </keybind>
+
+    <!-- Brightness down alt -->
+    <keybind key="W-F2">
       <action name="Execute">
         <command>dunst-backlight down</command>
       </action>
@@ -690,7 +746,7 @@
     </keybind>
 
     <!-- reconfigure -->
-    <keybind key="W-F11">
+    <keybind key="W-C-r">
       <action name="Execute">
         <command>sh -c "openbox --reconfigure &amp;&amp; notify-send -i openbox openbox reconfigured! "</command>
       </action>
