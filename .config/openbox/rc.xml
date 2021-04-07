@@ -132,7 +132,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>10</number>
+    <number>1</number>
     <firstdesk>1</firstdesk>
 
     <names>
@@ -1304,30 +1304,30 @@
 
     <!-- Disable decoration by default,
          this should be handled by bar. -->
-    <application class="*">
+<!--    <application class="*">
       <decor>no</decor>
     </application>
 
     <application class="Pavucontrol">
       <decor>yes</decor>
       <desktop>all</desktop>
-    </application>
+    </application> -->
 
     <application class="Rofi">
       <desktop>all</desktop>
     </application>
 
     <!-- Desktop 1: Terminals-->
-    <application class="UXTerm">
+<!--    <application class="UXTerm">
       <desktop>1</desktop>
     </application>
 
     <application class="URxvt">
       <desktop>1</desktop>
-    </application>
+    </application> -->
 
     <!-- Desktop 2: Editors-->
-    <application class="Emacs">
+<!--    <application class="Emacs">
       <desktop>2</desktop>
       <maximized>true</maximized>
     </application>
@@ -1345,9 +1345,9 @@
     <application name="libreoffice">
       <desktop>2</desktop>
     </application>
-
+-->
     <!-- Desktop 3: Web Browser-->
-    <application class="qutebrowser">
+<!--    <application class="qutebrowser">
       <desktop>3</desktop>
       <maximized>true</maximized>
     </application>
@@ -1361,9 +1361,9 @@
       <desktop>3</desktop>
       <maximized>true</maximized>
     </application>
-
+-->
     <!-- Desktop 4: Mail apps-->
-    <application class="Evolution">
+<!--    <application class="Evolution">
       <desktop>4</desktop>
       <maximized>true</maximized>
       <decor>true</decor>
@@ -1373,9 +1373,9 @@
       <desktop>4</desktop>
       <maximized>true</maximized>
     </application>
-
+-->
     <!-- Desktop 5: Multimedia-->
-    <application class="Rhythmbox">
+<!--    <application class="Rhythmbox">
       <desktop>5</desktop>
     </application>
 
@@ -1390,22 +1390,22 @@
     <application class="Ardour-6.6.0">
       <desktop>5</desktop>
     </application>
-
+-->
     <!-- Desktop 6: Networks-->
-    <application class="org.remmina.Remmina">
+<!--    <application class="org.remmina.Remmina">
       <desktop>6</desktop>
     </application>
-
+-->
     <!-- Desktop 7: Messaging-->
-    <application class="Pidgin">
+<!--    <application class="Pidgin">
       <desktop>7</desktop>
     </application>
-
+-->
     <!-- Desktop 10: Others-->
-    <application class="Gucharmap">
+<!--    <application class="Gucharmap">
       <desktop>10</desktop>
-    </application>
-
+    </application> -->
+-->
 </applications>
 
 </openbox_config>
