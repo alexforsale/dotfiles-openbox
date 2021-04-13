@@ -16,6 +16,12 @@
 #
 #xfce-mcs-manager &
 
+# picom
+if [ "$(command -v picom)" ] &&
+    [ -e "${XDG_CONFIG_HOME}/picom/picom.conf" ]; then
+    picom -b --config "${XDG_CONFIG_HOME}"/picom/picom.conf &
+fi
+
 # polybar
 sleep 3 && polybar-launch
 
