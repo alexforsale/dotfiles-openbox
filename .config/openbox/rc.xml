@@ -451,7 +451,14 @@
     <!-- rofi -->
     <keybind key="W-d">
       <action name="Execute">
-          <command>polybar-menu</command>
+          <command>rofi-menu</command>
+      </action>
+    </keybind>
+
+    <!-- rofi-fullscreen -->
+    <keybind key="W-S-d">
+      <action name="Execute">
+          <command>rofi-menu_full</command>
       </action>
     </keybind>
 
