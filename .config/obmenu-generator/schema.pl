@@ -32,9 +32,9 @@ our $SCHEMA = [
 
     #          COMMAND                 LABEL              ICON
     {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
-    {item => ['urxvt',            'Terminal',     'utilities-terminal']},
+    {item => ['xterm',            'Terminal',     'utilities-terminal']},
     {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
-    {item => ['polybar-run',            'Run command',  'system-run']},
+    {item => ['rofi -show drun -theme openbox',            'Run command',  'system-run']},
 
     {sep => undef},
     ## dotfiles theem
