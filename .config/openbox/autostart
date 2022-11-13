@@ -1,4 +1,4 @@
-#
+#!/bin/sh
 # These things are run when an Openbox X Session is started.
 # You may place a similar script in $HOME/.config/openbox/autostart
 # to run user-specific things.
@@ -15,18 +15,32 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
+# xorg
+xsetroot -cursor_name left_ptr
+xset r rate 300 30
+xrdb -merge ~/.Xresources
 
 # picom
 if [ "$(command -v picom)" ] &&
     [ -e "${XDG_CONFIG_HOME}/picom/picom.conf" ]; then
     picom -b --config "${XDG_CONFIG_HOME}"/picom/picom.conf &
 fi
+[ "$(pgrep polkit-gnome >/dev/null 2>&1)" ] || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-# polybar
-sleep 3 && polybar-launch
+[ "$(command -v udiskie)" ] && udiskie -t &
+[ "$(command -v iwgtk)" ] && iwgtk -i &
+[ "$(command -v dunst)" ] && dunst -conf ~/.config/dunst/dunstrc &
+[ -e /usr/lib/geoclue-2.0/demos/agent ] && /usr/lib/geoclue-2.0/demos/agent &
+[ "$(command -v nm-applet)" ] && nm-applet &
+[ "$(command -v xsettingsd)" ] && xsettingsd &
+[ -e ~/.fehbg ] && ~/.fehbg &
+[ "$(command -v wal)" ] && wal --theme solarized &
+[ "$(command -v blueman-applet)" ] && blueman-applet &
+[ "$(command -v unclutter)" ] && unclutter &
+[ "$(command -v volumeicon)" ] && volumeicon &
 
 # light-locker
-[ $(command -v light-locker) ] && $(sleep 3 && light-locker) &
+[ "$(command -v light-locker)" ] && (sleep 3 && light-locker) &
 
 # setwallpaper script
-[ $(command -v setwallpaper) ] && $(sleep 3 && setwallpaper) &
+[ "$(command -v setwallpaper)" ] && (sleep 3 && setwallpaper) &
